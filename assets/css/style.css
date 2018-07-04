@@ -1,0 +1,65 @@
+
+body{ 
+	background-image: url("../images/soccer_stadiums.JPG");
+
+
+}
+
+h1{ 
+	
+	font-size: 40px;
+	margin-top: 50px;
+    padding-top: 30px;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+#startBtn{
+	height: 40px;
+	width: 200px;
+	margin-top: 150px;
+	background-color: rgb(138, 43, 226);
+	font-size: 18px;
+	color: aliceblue;
+	font-weight: bold;
+}
+.container{
+	background:rgb(255, 235, 205);
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 50px;
+	height: 500px;
+	width: 750px;
+	margin-left: 200px;
+	font-size: 24px;
+	font-family: calibri;
+}
+.question{
+    font-weight: bold;
+    padding-top:15px; 
+    padding-bottom:15px;
+    font-size: 28px;
+}
+#correctedAnswer{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-weight: bold;
+}
+.thisChoice:hover{
+	background-color: rgb(0, 139, 139);
+	color: white;
+	padding: 8px;
+}
+#startOverBtn:hover{
+    background-color: pink;
+    font-weight: bold;
+}
+#message{ font-weight: bold;
+
+}
+
+#timeLeft{
+	font-size: 20px;
+}
+#finalResult, #correctAnswers, #incorrectAnswers, #unanswered, #startOverBtn{
+padding-bottom: 10px;
+}
